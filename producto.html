@@ -1,0 +1,125 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>e-comerce</title>
+        <!--hoja de estilo-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--iconos-->
+        <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+        <!--fuentes-->
+        <link href = "https://fonts.googleapis.com/css2? family = Poppins: wght @ 100; 200; 300; 400; 500; 600; 700; 800; 900 & display = swap "rel =" stylesheet ">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com">
+        <link href = "https://fonts.googleapis.com/css2? family = Raleway: ital, wght @ 0,100; 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 0,900; 1,100; 1,200; 1,300; 1,400; 1,500; 1,600; 1,700; 1,800; 1,900 & display = swap "rel =" stylesheet ">
+    </head>
+<body>
+    <header>
+        <div class="logoContainer">
+            <a href="#"><img id="logo" src="assets/img/Logo.png"></a>
+        </div>
+        <nav class="navBar">
+            <ul id="menu">
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="perfil.html">perfil</a></li>
+                <!--<li><a href="categorias.html">categorias</a></li>-->
+                <li><a href="favoritos.html">favoritos</a></li>
+                <li><a href="producto.html">producto</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+        <div class="searchBar">
+            <form action="get">
+                <div class="formGroup">
+                    <div class="buscar">
+                        <input class="loquequieras" type="search" placeholder="Busca lo que quieras">
+                        <button class="buscar">buscar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>  
+    <main class="descripcion">
+        <div class="containerProduct">
+            <div class="imgProduContainer">
+                <div class="imgProduct">
+                    <img class="imgProd" src="assets/img/Productos/5.2%20Fancy%20Flare%20pantalones%20gaucho%20mostaza.jpg">
+                </div>
+            </div>
+            <div class="infoProduct">
+                <h2>Top con volantes Sweet Bloom</h2>
+                <h5>color: multicolor</h5>
+                <strong>$ 5.000</strong><br>
+                <em>incluye impuestos</em>
+                <form action= "contacto.php" method="get">
+                    <label>medida</label>
+                    <select style= "margin-top: 20px">
+                        <option>pequeño</option>
+                        <option>mediano</option>
+                        <option>grande</option>
+                    </select>
+                </form>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere animi accusantium rerum laborum doloribus velit impedit cumque id ducimus. Ut id earum explicabo facilis, cumque iure odit soluta consectetur consequuntur inventore exercitationem accusamus impedit recusandae quae. Tempore, amet tenetur temporibus illo sunt fuga, voluptatem veniam expedita autem rem odit?</p>
+            </div>
+            <div class="tablaProduct">                  
+                <table style= "margin-top: 20px"  cellpadding= "10px" cellspacing= "5px" border="1px">
+                    <tr>
+                        <th colspan="2">Especificaciones</th>
+                    </tr>
+                    <tr>
+                        <th>Peso:</th>
+                        <td ALIGN=center>1.7 kg</td>
+                    </tr>
+                    <tr>
+                        <th>Dimenciones:</th>
+                        <td ALIGN=center>22 x 28 x 32 cm</td>
+                    </tr>
+                    <tr>
+                         <th>Marca:</th>
+                        <td ALIGN=center>Cherry</td>
+                    </tr>
+                    <tr>
+                        <th>Modelo:</th>
+                        <td ALIGN=center>Alpha 5</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="ftr rowFtr">
+            <div class="ftr1">
+                <h4>Servicios</h4>
+                <ul>
+                    <li><a href="#">Web design</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Hosting</a></li>
+                </ul>
+            </div>
+            <div class="ftr ftr2">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                 </ul>
+            </div>
+            <div class="ftr ftr3">
+                <h4>Company Name</h4>
+                 <p>
+                     Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula
+                     rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum
+                     vel in justo.
+                 </p>
+            </div>
+            <div class="ftr icon"><!--class="col item social"-->
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+            </div>
+            <p class="ftr derechos">mariangel<span><sup>©</sup></span> 2021</p>
+        </div>
+    </footer>
+</body>
+</html>

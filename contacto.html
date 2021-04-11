@@ -1,0 +1,121 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>e-comerce</title>
+        <!--hoja de estilo-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--iconos-->
+        <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+        <!--fuentes-->
+        <link href = "https://fonts.googleapis.com/css2? family = Poppins: wght @ 100; 200; 300; 400; 500; 600; 700; 800; 900 & display = swap "rel =" stylesheet ">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com">
+        <link href = "https://fonts.googleapis.com/css2? family = Raleway: ital, wght @ 0,100; 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 0,900; 1,100; 1,200; 1,300; 1,400; 1,500; 1,600; 1,700; 1,800; 1,900 & display = swap "rel =" stylesheet ">
+    </head>
+<body>
+    <header>
+        <div class="logoContainer">
+            <a href="#"><img id="logo" src="assets/img/Logo.png"></a>
+        </div>
+        <nav class="navBar">
+            <ul id="menu">
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="perfil.html">perfil</a></li>
+                <!--<li><a href="categorias.html">categorias</a></li>-->
+                <li><a href="favoritos.html">favoritos</a></li>
+                <li><a href="producto.html">producto</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+        <div class="searchBar">
+            <form action="get">
+                <div class="formGroup">
+                    <div class="buscar">
+                        <input class="loquequieras" type="search" placeholder="Busca lo que quieras">
+                        <button class="buscar">buscar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>  
+    <main id="contacto" style= "height: 100vh">
+        <center>
+            <h2>contacto</h2>
+            <hr>
+            <p class="info" style="width: 300px;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt veritatis nemo facilis non libero asperiores repudiandae excepturi similique voluptas neque?
+            </p>
+            <form>
+                <fieldset style="width: fit-content;">
+                    <label for="nombre">nombre: </label>
+                    <input type="text" placeholder="ingresa tu nombre aquí" required>
+                    <br>
+                    <br>
+                    <label for="correo">correo: </label>
+                    <input type="email" placeholder="ingresa tu correo aquí" required>
+                    <br>
+                    <br>
+                    <label for="nombre">¿te gustaria recibir respuesta a través de llamada?: </label>
+                    <br>
+                    <input type="radio" id="si" name="radio" checked><label for="si">Si</label>
+                    <input type="radio" id="no" name="radio"><label for="no">No</label>
+                    <br>
+                    <br>
+                    <label for="">ingresa tu número de contacto:</label>
+                    <select>
+                        <option>+56 9</option>
+                        <option>+56 2</option>
+                    </select>
+                    <input type="text" placeholder="xxxxxxxx" required>
+                    <br>
+                    <br>
+                    <label for="mensaje">mensaje:</label>
+                    <br>
+                    <textarea name="mensaje" cols="40" rows="8" minlength="5" maxlength="400" placeholder="Escribe AQUI tu consulta" ></textarea>
+                    <br>
+                </fieldset>
+                <br>
+                <br>
+                <input type="reset" value="Borrar todos los campos">   
+                <input type="submit" value="Enviar Formulario">    
+            </form>
+        </center>
+    </main>
+    <footer>
+        <div class="ftr rowFtr">
+            <div class="ftr1">
+                <h4>Servicios</h4>
+                <ul>
+                    <li><a href="#">Web design</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Hosting</a></li>
+                </ul>
+            </div>
+            <div class="ftr ftr2">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="ftr ftr3">
+                <h4>Company Name</h4>
+                 <p>
+                     Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula
+                     rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum
+                     vel in justo.
+                 </p>
+            </div>
+            <div class="ftr icon"><!--class="col item social"-->
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+            </div>
+            <p class="ftr derechos">mariangel<span><sup>©</sup></span> 2021</p>
+        </div>
+    </footer>
+</body>
+</html>
